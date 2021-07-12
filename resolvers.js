@@ -7,8 +7,8 @@ const Query = {
 
 const Mutation = {
   // resolver for field createPost in type Mutation
-  createPost: async ({ id }) => {
-    return { id };
+  createPost: async ({ id, text }) => {
+    return { id, text };
   },
 };
 
