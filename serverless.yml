@@ -1,0 +1,7 @@
+org: pchinjr
+app: sls-graphql
+component: graphql
+name: graphql-starter
+
+inputs:
+  src: ./
